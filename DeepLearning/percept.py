@@ -6,7 +6,7 @@ X=np.array([
     [1,0],
     [1,1]
 ])
-y=np.array([0,1,1,0])#XOR output
+y=np.array([0,0,0,1])#XOR output
 model=Perceptron(max_iter=1000)
 model.fit(X,y)
 pred_y=model.predict(X)
